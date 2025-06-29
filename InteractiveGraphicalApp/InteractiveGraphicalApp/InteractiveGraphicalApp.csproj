@@ -187,6 +187,9 @@
     <EmbeddedResource Include="Presentation\Forms\FrmDDA.resx">
       <DependentUpon>FrmDDA.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Forms\FrmEllipse.resx">
+      <DependentUpon>FrmEllipse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentation\Forms\FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </EmbeddedResource>

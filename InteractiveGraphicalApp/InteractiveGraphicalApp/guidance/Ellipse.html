@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Midpoint Ellipse Drawing Algorithm</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f9e6;
+      color: #004d00;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #28a745;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+    }
+
+    h1, h2 {
+      color: #1c7730;
+    }
+
+    code {
+      background-color: #f0fff0;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-family: Consolas, monospace;
+    }
+
+    .formula {
+      background-color: #d4f5d4;
+      padding: 10px;
+      border-left: 4px solid #28a745;
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Midpoint Ellipse Drawing Algorithm</h1>
+    <p>Efficient rasterization of ellipses using integer arithmetic and symmetry</p>
+  </header>
+
+  <main>
+    <h2>📘 What is the Midpoint Ellipse Algorithm?</h2>
+    <p>
+      The Midpoint Ellipse Drawing Algorithm is an efficient method to draw ellipses using integer operations only. It is a variation of the midpoint circle algorithm adapted for ellipses. The algorithm divides the first quadrant of the ellipse into two regions and calculates pixel positions based on decision parameters, exploiting the ellipse's symmetry.
+    </p>
+
+    <h2>📐 Formulas</h2>
+    <div class="formula">
+      Let the ellipse have radii a (horizontal) and b (vertical), centered at (0, 0).<br><br>
+
+      <strong>Region 1 (dy/dx &lt; 1):</strong><br>
+      Initial decision parameter:<br>
+      <code>p1 = b² - a²b + 0.25a²</code><br><br>
+      For each step:<br>
+      If p1 &lt; 0:<br>
+      &nbsp;&nbsp;x = x + 1<br>
+      &nbsp;&nbsp;p1 = p1 + 2b²x + b²<br>
+      Else:<br>
+      &nbsp;&nbsp;x = x + 1<br>
+      &nbsp;&nbsp;y = y - 1<br>
+      &nbsp;&nbsp;p1 = p1 + 2b²x - 2a²y + b²<br><br>
+
+      <strong>Region 2 (dy/dx ≥ 1):</strong><br>
+      Initial decision parameter:<br>
+      <code>p2 = b²(x + 0.5)² + a²(y - 1)² - a²b²</code><br><br>
+      If p2 &gt; 0:<br>
+      &nbsp;&nbsp;y = y - 1<br>
+      &nbsp;&nbsp;p2 = p2 - 2a²y + a²<br>
+      Else:<br>
+      &nbsp;&nbsp;x = x + 1<br>
+      &nbsp;&nbsp;y = y - 1<br>
+      &nbsp;&nbsp;p2 = p2 + 2b²x - 2a²y + a²
+    </div>
+    <p>
+      The algorithm plots all four quadrants using the symmetry of the ellipse: (±x, ±y). This reduces computation and ensures accurate rendering.
+    </p>
+
+    <h2>🎥 Recommended Videos</h2>
+    <p>Watch this explanation to understand the concept visually:</p>
+<iframe width="837" height="471" src="https://www.youtube.com/embed/ycQu0bsjewk" title="Computer Graphics: Lecture #9: Example for Mid-point ellipse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>🧠 Summary</h2>
+    <ul>
+      <li>Divides the ellipse into two regions based on the slope.</li>
+      <li>Uses integer arithmetic and decision parameters.</li>
+      <li>Efficient for low-level graphics operations and educational purposes.</li>
+      <li>Exploits symmetry to minimize computation.</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 Computer Graphics Interactive | All rights reserved.
+  </footer>
+</body>
+</html>
