@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Midpoint Circle Drawing Algorithm</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f9e6;
+      color: #004d00;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #28a745;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+    }
+
+    h1, h2 {
+      color: #1c7730;
+    }
+
+    code {
+      background-color: #f0fff0;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-family: Consolas, monospace;
+    }
+
+    .formula {
+      background-color: #d4f5d4;
+      padding: 10px;
+      border-left: 4px solid #28a745;
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Midpoint Circle Drawing Algorithm</h1>
+    <p>Bresenham’s Circle Algorithm - Efficient Circle Rasterization</p>
+  </header>
+
+  <main>
+    <h2>📘 What is the Midpoint Circle Algorithm?</h2>
+    <p>
+      The Midpoint Circle Drawing Algorithm (a variation of Bresenham’s algorithm) is used to determine the rasterized points of a circle by using symmetry and a decision parameter.
+      It incrementally calculates the next point around a circle’s perimeter using only integer math.
+    </p>
+
+    <h2>📐 Formulas</h2>
+    <div class="formula">
+      Initial values:<br>
+      x = 0, y = r<br>
+      p = 1 - r<br><br>
+
+      For each step:<br>
+      If p &lt; 0:<br>
+      &nbsp;&nbsp;p = p + 2x + 3<br>
+      Else:<br>
+      &nbsp;&nbsp;y = y - 1<br>
+      &nbsp;&nbsp;p = p + 2x - 2y + 5<br>
+      x = x + 1
+    </div>
+    <p>
+      The algorithm plots all eight octants simultaneously due to the symmetry of circles, making it very efficient for rendering.
+    </p>
+
+    <h2>🎥 Recommended Videos</h2>
+    <p>Watch this for a clear visual explanation:</p>
+<iframe width="837" height="471" src="https://www.youtube.com/embed/hpiILbMkF9w" title="The Midpoint Circle Algorithm Explained Step by Step" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>🧠 Summary</h2>
+    <ul>
+      <li>Efficient circle rendering using only integer calculations.</li>
+      <li>Exploits the symmetry of the circle to reduce computation.</li>
+      <li>Widely used in raster graphics and low-level graphics libraries.</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 Computer Graphics Interactive | All rights reserved.
+  </footer>
+</body>
+</html>

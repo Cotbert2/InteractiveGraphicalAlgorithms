@@ -28,31 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.wVSupport = new Microsoft.Web.WebView2.WinForms.WebView2();
-            ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wVSupport)).BeginInit();
             this.SuspendLayout();
-            // 
-            // webView21
-            // 
-            this.webView21.AllowExternalDrop = true;
-            this.webView21.CreationProperties = null;
-            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.webView21.Location = new System.Drawing.Point(0, 0);
-            this.webView21.Name = "webView21";
-            this.webView21.Size = new System.Drawing.Size(75, 23);
-            this.webView21.TabIndex = 0;
-            this.webView21.ZoomFactor = 1D;
             // 
             // wVSupport
             // 
             this.wVSupport.AllowExternalDrop = true;
             this.wVSupport.CreationProperties = null;
             this.wVSupport.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.wVSupport.Location = new System.Drawing.Point(0, 0);
+            this.wVSupport.Location = new System.Drawing.Point(269, 82);
             this.wVSupport.Name = "wVSupport";
-            this.wVSupport.Size = new System.Drawing.Size(1014, 632);
+            this.wVSupport.Size = new System.Drawing.Size(182, 137);
             this.wVSupport.TabIndex = 1;
             this.wVSupport.ZoomFactor = 1D;
             // 
@@ -62,18 +49,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1014, 633);
             this.Controls.Add(this.wVSupport);
-            this.Controls.Add(this.webView21);
             this.Name = "FrmSupport";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmSupport";
-            ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wVSupport)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private Microsoft.Web.WebView2.WinForms.WebView2 webView21;
         private Microsoft.Web.WebView2.WinForms.WebView2 wVSupport;
     }
 }

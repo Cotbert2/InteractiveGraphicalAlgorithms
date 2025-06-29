@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InteractiveGraphicalApp.Infraestructure.Graphics
 {
-    internal interface IImageExporter
+    public interface IImageExporter
     {
+        void exportImage(object sender, EventArgs e);
     }
 }

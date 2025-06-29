@@ -1,2 +1,3 @@
-2025/06/29-03:16:16.311 2b8 Creating DB E:\Development\InteractiveGraphicalAlgorithms\InteractiveGraphicalApp\InteractiveGraphicalApp\bin\Debug\InteractiveGraphicalApp.exe.WebView2\EBWebView\Default\shared_proto_db\metadata since it was missing.
-2025/06/29-03:16:16.316 2b8 Reusing MANIFEST E:\Development\InteractiveGraphicalAlgorithms\InteractiveGraphicalApp\InteractiveGraphicalApp\bin\Debug\InteractiveGraphicalApp.exe.WebView2\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2025/06/29-14:20:31.625 7b00 Reusing MANIFEST E:\Development\InteractiveGraphicalAlgorithms\InteractiveGraphicalApp\InteractiveGraphicalApp\bin\Debug\InteractiveGraphicalApp.exe.WebView2\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2025/06/29-14:20:31.626 7b00 Recovering log #3
+2025/06/29-14:20:31.626 7b00 Reusing old log E:\Development\InteractiveGraphicalAlgorithms\InteractiveGraphicalApp\InteractiveGraphicalApp\bin\Debug\InteractiveGraphicalApp.exe.WebView2\EBWebView\Default\shared_proto_db\metadata/000003.log 

@@ -30,23 +30,23 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnGithub = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnDDA = new FontAwesome.Sharp.IconButton();
+            this.btnBSplines = new FontAwesome.Sharp.IconButton();
+            this.btnBezier = new FontAwesome.Sharp.IconButton();
+            this.btnShutherlandHodgeman = new FontAwesome.Sharp.IconButton();
+            this.btnCohenShutherland = new FontAwesome.Sharp.IconButton();
+            this.btnFloodBFS = new FontAwesome.Sharp.IconButton();
+            this.btnFloodDFS = new FontAwesome.Sharp.IconButton();
+            this.FrmEllipse = new FontAwesome.Sharp.IconButton();
+            this.btnMidPoint = new FontAwesome.Sharp.IconButton();
             this.btnBresenham = new FontAwesome.Sharp.IconButton();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.iconButton5 = new FontAwesome.Sharp.IconButton();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
-            this.iconButton7 = new FontAwesome.Sharp.IconButton();
-            this.iconButton8 = new FontAwesome.Sharp.IconButton();
+            this.btnDDA = new FontAwesome.Sharp.IconButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.btnQuit = new FontAwesome.Sharp.IconButton();
+            this.btnGithub = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -74,75 +74,17 @@
             this.panel1.Size = new System.Drawing.Size(807, 69);
             this.panel1.TabIndex = 1;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label2.Location = new System.Drawing.Point(87, 42);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Rasterize";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label3.Location = new System.Drawing.Point(295, 42);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Filling";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label4.Location = new System.Drawing.Point(450, 42);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 25);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Cliping";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label5.Location = new System.Drawing.Point(643, 42);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 25);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Curves";
-            // 
-            // btnGithub
-            // 
-            this.btnGithub.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnGithub.IconChar = FontAwesome.Sharp.IconChar.Github;
-            this.btnGithub.IconColor = System.Drawing.Color.White;
-            this.btnGithub.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnGithub.Location = new System.Drawing.Point(15, 11);
-            this.btnGithub.Name = "btnGithub";
-            this.btnGithub.Size = new System.Drawing.Size(56, 48);
-            this.btnGithub.TabIndex = 1;
-            this.btnGithub.UseVisualStyleBackColor = false;
-            this.btnGithub.Click += new System.EventHandler(this.btnGithub_Click);
-            // 
             // panel2
             // 
             this.panel2.BackgroundImage = global::InteractiveGraphicalApp.Properties.Resources.wallpaperjpg;
-            this.panel2.Controls.Add(this.iconButton8);
-            this.panel2.Controls.Add(this.iconButton7);
-            this.panel2.Controls.Add(this.iconButton6);
-            this.panel2.Controls.Add(this.iconButton5);
-            this.panel2.Controls.Add(this.iconButton4);
-            this.panel2.Controls.Add(this.iconButton3);
-            this.panel2.Controls.Add(this.iconButton2);
-            this.panel2.Controls.Add(this.iconButton1);
+            this.panel2.Controls.Add(this.btnBSplines);
+            this.panel2.Controls.Add(this.btnBezier);
+            this.panel2.Controls.Add(this.btnShutherlandHodgeman);
+            this.panel2.Controls.Add(this.btnCohenShutherland);
+            this.panel2.Controls.Add(this.btnFloodBFS);
+            this.panel2.Controls.Add(this.btnFloodDFS);
+            this.panel2.Controls.Add(this.FrmEllipse);
+            this.panel2.Controls.Add(this.btnMidPoint);
             this.panel2.Controls.Add(this.btnBresenham);
             this.panel2.Controls.Add(this.btnDDA);
             this.panel2.Controls.Add(this.label5);
@@ -154,21 +96,143 @@
             this.panel2.Size = new System.Drawing.Size(807, 518);
             this.panel2.TabIndex = 5;
             // 
-            // btnDDA
+            // btnBSplines
             // 
-            this.btnDDA.BackColor = System.Drawing.Color.DarkGreen;
-            this.btnDDA.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDDA.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnDDA.IconChar = FontAwesome.Sharp.IconChar.PencilRuler;
-            this.btnDDA.IconColor = System.Drawing.Color.White;
-            this.btnDDA.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.btnDDA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDDA.Location = new System.Drawing.Point(52, 92);
-            this.btnDDA.Name = "btnDDA";
-            this.btnDDA.Size = new System.Drawing.Size(172, 61);
-            this.btnDDA.TabIndex = 5;
-            this.btnDDA.Text = "DDA";
-            this.btnDDA.UseVisualStyleBackColor = false;
+            this.btnBSplines.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnBSplines.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBSplines.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnBSplines.IconChar = FontAwesome.Sharp.IconChar.BezierCurve;
+            this.btnBSplines.IconColor = System.Drawing.Color.White;
+            this.btnBSplines.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnBSplines.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBSplines.Location = new System.Drawing.Point(623, 193);
+            this.btnBSplines.Name = "btnBSplines";
+            this.btnBSplines.Size = new System.Drawing.Size(172, 61);
+            this.btnBSplines.TabIndex = 14;
+            this.btnBSplines.Text = "B-splines";
+            this.btnBSplines.UseVisualStyleBackColor = false;
+            this.btnBSplines.Click += new System.EventHandler(this.btnBSplines_Click);
+            // 
+            // btnBezier
+            // 
+            this.btnBezier.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnBezier.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBezier.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnBezier.IconChar = FontAwesome.Sharp.IconChar.BezierCurve;
+            this.btnBezier.IconColor = System.Drawing.Color.White;
+            this.btnBezier.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnBezier.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBezier.Location = new System.Drawing.Point(623, 92);
+            this.btnBezier.Name = "btnBezier";
+            this.btnBezier.Size = new System.Drawing.Size(172, 61);
+            this.btnBezier.TabIndex = 13;
+            this.btnBezier.Text = "Bezier";
+            this.btnBezier.UseVisualStyleBackColor = false;
+            this.btnBezier.Click += new System.EventHandler(this.btnBezier_Click);
+            // 
+            // btnShutherlandHodgeman
+            // 
+            this.btnShutherlandHodgeman.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnShutherlandHodgeman.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShutherlandHodgeman.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnShutherlandHodgeman.IconChar = FontAwesome.Sharp.IconChar.Cut;
+            this.btnShutherlandHodgeman.IconColor = System.Drawing.Color.White;
+            this.btnShutherlandHodgeman.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnShutherlandHodgeman.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnShutherlandHodgeman.Location = new System.Drawing.Point(437, 193);
+            this.btnShutherlandHodgeman.Name = "btnShutherlandHodgeman";
+            this.btnShutherlandHodgeman.Size = new System.Drawing.Size(172, 61);
+            this.btnShutherlandHodgeman.TabIndex = 12;
+            this.btnShutherlandHodgeman.Text = "Sutherland–Ho...";
+            this.btnShutherlandHodgeman.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnShutherlandHodgeman.UseVisualStyleBackColor = false;
+            this.btnShutherlandHodgeman.Click += new System.EventHandler(this.btnShutherlandHodgeman_Click);
+            // 
+            // btnCohenShutherland
+            // 
+            this.btnCohenShutherland.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnCohenShutherland.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCohenShutherland.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnCohenShutherland.IconChar = FontAwesome.Sharp.IconChar.Cut;
+            this.btnCohenShutherland.IconColor = System.Drawing.Color.White;
+            this.btnCohenShutherland.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnCohenShutherland.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCohenShutherland.Location = new System.Drawing.Point(437, 92);
+            this.btnCohenShutherland.Name = "btnCohenShutherland";
+            this.btnCohenShutherland.Size = new System.Drawing.Size(172, 61);
+            this.btnCohenShutherland.TabIndex = 11;
+            this.btnCohenShutherland.Text = "Cohen-Shuther...";
+            this.btnCohenShutherland.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCohenShutherland.UseVisualStyleBackColor = false;
+            this.btnCohenShutherland.Click += new System.EventHandler(this.btnCohenShutherland_Click);
+            // 
+            // btnFloodBFS
+            // 
+            this.btnFloodBFS.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnFloodBFS.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFloodBFS.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnFloodBFS.IconChar = FontAwesome.Sharp.IconChar.FillDrip;
+            this.btnFloodBFS.IconColor = System.Drawing.Color.White;
+            this.btnFloodBFS.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnFloodBFS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFloodBFS.Location = new System.Drawing.Point(245, 193);
+            this.btnFloodBFS.Name = "btnFloodBFS";
+            this.btnFloodBFS.Size = new System.Drawing.Size(172, 61);
+            this.btnFloodBFS.TabIndex = 10;
+            this.btnFloodBFS.Text = "Flood BFS";
+            this.btnFloodBFS.UseVisualStyleBackColor = false;
+            this.btnFloodBFS.Click += new System.EventHandler(this.btnFloodBFS_Click);
+            // 
+            // btnFloodDFS
+            // 
+            this.btnFloodDFS.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnFloodDFS.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFloodDFS.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnFloodDFS.IconChar = FontAwesome.Sharp.IconChar.FillDrip;
+            this.btnFloodDFS.IconColor = System.Drawing.Color.White;
+            this.btnFloodDFS.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnFloodDFS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFloodDFS.Location = new System.Drawing.Point(245, 92);
+            this.btnFloodDFS.Name = "btnFloodDFS";
+            this.btnFloodDFS.Size = new System.Drawing.Size(172, 61);
+            this.btnFloodDFS.TabIndex = 9;
+            this.btnFloodDFS.Text = "Flood DFS";
+            this.btnFloodDFS.UseVisualStyleBackColor = false;
+            this.btnFloodDFS.Click += new System.EventHandler(this.iconButton3_Click);
+            // 
+            // FrmEllipse
+            // 
+            this.FrmEllipse.BackColor = System.Drawing.Color.DarkGreen;
+            this.FrmEllipse.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FrmEllipse.ForeColor = System.Drawing.SystemColors.Control;
+            this.FrmEllipse.IconChar = FontAwesome.Sharp.IconChar.PencilRuler;
+            this.FrmEllipse.IconColor = System.Drawing.Color.White;
+            this.FrmEllipse.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.FrmEllipse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.FrmEllipse.Location = new System.Drawing.Point(52, 378);
+            this.FrmEllipse.Name = "FrmEllipse";
+            this.FrmEllipse.Size = new System.Drawing.Size(172, 61);
+            this.FrmEllipse.TabIndex = 8;
+            this.FrmEllipse.Text = "Ellipse";
+            this.FrmEllipse.UseVisualStyleBackColor = false;
+            this.FrmEllipse.Click += new System.EventHandler(this.FrmEllipse_Click);
+            // 
+            // btnMidPoint
+            // 
+            this.btnMidPoint.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnMidPoint.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMidPoint.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnMidPoint.IconChar = FontAwesome.Sharp.IconChar.PencilRuler;
+            this.btnMidPoint.IconColor = System.Drawing.Color.White;
+            this.btnMidPoint.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnMidPoint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMidPoint.Location = new System.Drawing.Point(52, 288);
+            this.btnMidPoint.Name = "btnMidPoint";
+            this.btnMidPoint.Size = new System.Drawing.Size(172, 61);
+            this.btnMidPoint.TabIndex = 7;
+            this.btnMidPoint.Text = "Mid Point";
+            this.btnMidPoint.UseVisualStyleBackColor = false;
+            this.btnMidPoint.Click += new System.EventHandler(this.btnMidPoint_Click);
             // 
             // btnBresenham
             // 
@@ -185,136 +249,69 @@
             this.btnBresenham.TabIndex = 6;
             this.btnBresenham.Text = "Bresenham";
             this.btnBresenham.UseVisualStyleBackColor = false;
+            this.btnBresenham.Click += new System.EventHandler(this.btnBresenham_Click);
             // 
-            // iconButton1
+            // btnDDA
             // 
-            this.iconButton1.BackColor = System.Drawing.Color.DarkGreen;
-            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.ForeColor = System.Drawing.SystemColors.Control;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.PencilRuler;
-            this.iconButton1.IconColor = System.Drawing.Color.White;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(52, 288);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(172, 61);
-            this.iconButton1.TabIndex = 7;
-            this.iconButton1.Text = "Mid Point";
-            this.iconButton1.UseVisualStyleBackColor = false;
+            this.btnDDA.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnDDA.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDDA.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnDDA.IconChar = FontAwesome.Sharp.IconChar.PencilRuler;
+            this.btnDDA.IconColor = System.Drawing.Color.White;
+            this.btnDDA.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnDDA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDDA.Location = new System.Drawing.Point(52, 92);
+            this.btnDDA.Name = "btnDDA";
+            this.btnDDA.Size = new System.Drawing.Size(172, 61);
+            this.btnDDA.TabIndex = 5;
+            this.btnDDA.Text = "DDA";
+            this.btnDDA.UseVisualStyleBackColor = false;
+            this.btnDDA.Click += new System.EventHandler(this.btnDDA_Click);
             // 
-            // iconButton2
+            // label5
             // 
-            this.iconButton2.BackColor = System.Drawing.Color.DarkGreen;
-            this.iconButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton2.ForeColor = System.Drawing.SystemColors.Control;
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.PencilRuler;
-            this.iconButton2.IconColor = System.Drawing.Color.White;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(52, 378);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(172, 61);
-            this.iconButton2.TabIndex = 8;
-            this.iconButton2.Text = "Ellipse";
-            this.iconButton2.UseVisualStyleBackColor = false;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label5.Location = new System.Drawing.Point(643, 42);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(81, 25);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Curves";
             // 
-            // iconButton3
+            // label3
             // 
-            this.iconButton3.BackColor = System.Drawing.Color.DarkGreen;
-            this.iconButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.FillDrip;
-            this.iconButton3.IconColor = System.Drawing.Color.White;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(245, 92);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(172, 61);
-            this.iconButton3.TabIndex = 9;
-            this.iconButton3.Text = "Flood DFS";
-            this.iconButton3.UseVisualStyleBackColor = false;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label3.Location = new System.Drawing.Point(295, 42);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(69, 25);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Filling";
             // 
-            // iconButton4
+            // label2
             // 
-            this.iconButton4.BackColor = System.Drawing.Color.DarkGreen;
-            this.iconButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.FillDrip;
-            this.iconButton4.IconColor = System.Drawing.Color.White;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(245, 193);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(172, 61);
-            this.iconButton4.TabIndex = 10;
-            this.iconButton4.Text = "Flood BFS";
-            this.iconButton4.UseVisualStyleBackColor = false;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label2.Location = new System.Drawing.Point(87, 42);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(102, 25);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Rasterize";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // iconButton5
+            // label4
             // 
-            this.iconButton5.BackColor = System.Drawing.Color.DarkGreen;
-            this.iconButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.Cut;
-            this.iconButton5.IconColor = System.Drawing.Color.White;
-            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.Location = new System.Drawing.Point(437, 92);
-            this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(172, 61);
-            this.iconButton5.TabIndex = 11;
-            this.iconButton5.Text = "Cohen-Shuther...";
-            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton5.UseVisualStyleBackColor = false;
-            // 
-            // iconButton6
-            // 
-            this.iconButton6.BackColor = System.Drawing.Color.DarkGreen;
-            this.iconButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.Cut;
-            this.iconButton6.IconColor = System.Drawing.Color.White;
-            this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.Location = new System.Drawing.Point(437, 193);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Size = new System.Drawing.Size(172, 61);
-            this.iconButton6.TabIndex = 12;
-            this.iconButton6.Text = "Sutherland–Ho...";
-            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton6.UseVisualStyleBackColor = false;
-            // 
-            // iconButton7
-            // 
-            this.iconButton7.BackColor = System.Drawing.Color.DarkGreen;
-            this.iconButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.BezierCurve;
-            this.iconButton7.IconColor = System.Drawing.Color.White;
-            this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton7.Location = new System.Drawing.Point(623, 92);
-            this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Size = new System.Drawing.Size(172, 61);
-            this.iconButton7.TabIndex = 13;
-            this.iconButton7.Text = "Bezier";
-            this.iconButton7.UseVisualStyleBackColor = false;
-            // 
-            // iconButton8
-            // 
-            this.iconButton8.BackColor = System.Drawing.Color.DarkGreen;
-            this.iconButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.BezierCurve;
-            this.iconButton8.IconColor = System.Drawing.Color.White;
-            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton8.Location = new System.Drawing.Point(623, 193);
-            this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Size = new System.Drawing.Size(172, 61);
-            this.iconButton8.TabIndex = 14;
-            this.iconButton8.Text = "B-splines";
-            this.iconButton8.UseVisualStyleBackColor = false;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.ForestGreen;
+            this.label4.Location = new System.Drawing.Point(450, 42);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(79, 25);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Cliping";
             // 
             // btnQuit
             // 
@@ -328,6 +325,19 @@
             this.btnQuit.TabIndex = 2;
             this.btnQuit.UseVisualStyleBackColor = true;
             this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
+            // 
+            // btnGithub
+            // 
+            this.btnGithub.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnGithub.IconChar = FontAwesome.Sharp.IconChar.Github;
+            this.btnGithub.IconColor = System.Drawing.Color.White;
+            this.btnGithub.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnGithub.Location = new System.Drawing.Point(15, 11);
+            this.btnGithub.Name = "btnGithub";
+            this.btnGithub.Size = new System.Drawing.Size(56, 48);
+            this.btnGithub.TabIndex = 1;
+            this.btnGithub.UseVisualStyleBackColor = false;
+            this.btnGithub.Click += new System.EventHandler(this.btnGithub_Click);
             // 
             // FrmHome
             // 
@@ -360,14 +370,14 @@
         private System.Windows.Forms.Panel panel2;
         private FontAwesome.Sharp.IconButton btnDDA;
         private FontAwesome.Sharp.IconButton btnBresenham;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton1;
-        private FontAwesome.Sharp.IconButton iconButton7;
-        private FontAwesome.Sharp.IconButton iconButton6;
-        private FontAwesome.Sharp.IconButton iconButton5;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private FontAwesome.Sharp.IconButton iconButton8;
+        private FontAwesome.Sharp.IconButton btnFloodDFS;
+        private FontAwesome.Sharp.IconButton FrmEllipse;
+        private FontAwesome.Sharp.IconButton btnMidPoint;
+        private FontAwesome.Sharp.IconButton btnBezier;
+        private FontAwesome.Sharp.IconButton btnShutherlandHodgeman;
+        private FontAwesome.Sharp.IconButton btnCohenShutherland;
+        private FontAwesome.Sharp.IconButton btnFloodBFS;
+        private FontAwesome.Sharp.IconButton btnBSplines;
         private FontAwesome.Sharp.IconButton btnQuit;
     }
 }

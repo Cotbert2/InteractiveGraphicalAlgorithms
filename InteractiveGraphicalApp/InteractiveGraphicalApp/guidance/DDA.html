@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DDA Line Drawing Algorithm</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f9e6;
+      color: #004d00;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #28a745;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+    }
+
+    h1, h2 {
+      color: #1c7730;
+    }
+
+    code {
+      background-color: #f0fff0;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-family: Consolas, monospace;
+    }
+
+    .formula {
+      background-color: #d4f5d4;
+      padding: 10px;
+      border-left: 4px solid #28a745;
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DDA Line Drawing Algorithm</h1>
+    <p>Digital Differential Analyzer - Explained Visually</p>
+  </header>
+
+  <main>
+    <h2>📘 What is DDA?</h2>
+    <p>
+      The Digital Differential Analyzer (DDA) is an incremental scan conversion method used for drawing lines between two points in computer graphics.
+      It calculates intermediate points between the start and end coordinates using floating-point arithmetic.
+    </p>
+
+    <h2>📐 Formulas</h2>
+    <div class="formula">
+      steps = max(|x<sub>1</sub> - x<sub>0</sub>|, |y<sub>1</sub> - y<sub>0</sub>|) <br>
+      x<sub>increment</sub> = (x<sub>1</sub> - x<sub>0</sub>) / steps <br>
+      y<sub>increment</sub> = (y<sub>1</sub> - y<sub>0</sub>) / steps
+    </div>
+    <p>
+      The DDA algorithm iteratively adds these increments to the starting point and rounds the result to plot the next pixel.
+    </p>
+
+    <h2>🎥 Recommended Videos</h2>
+    <p>Watch these YouTube videos for a visual explanation:</p>
+    <iframe width="837" height="471" src="https://www.youtube.com/embed/W5P8GlaEOSI" title="DDA Line Drawing Algorithm - Computer Graphics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- 
+    <iframe src="https://www.youtube.com/embed/FyH3h1nQBLU" title="DDA Line Drawing Algorithm - Animated Explanation"></iframe>
+
+    <iframe src="https://www.youtube.com/embed/Z0hZ3w8y4cQ" title="DDA Line Algorithm - GATE CSE Preparation"></iframe> -->
+
+    <h2>🧠 Summary</h2>
+    <ul>
+      <li>Simple and intuitive algorithm for line drawing.</li>
+      <li>Uses floating-point calculations and rounding.</li>
+      <li>May be less efficient than Bresenham’s algorithm due to rounding operations.</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 Computer Graphics Interactive | All rights reserved.
+  </footer>
+</body>
+</html>

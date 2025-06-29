@@ -49,5 +49,76 @@ namespace InteractiveGraphicalApp.Presentation.Forms
             // Close the application
             Application.Exit();
         }
+
+        private void btnDDA_Click(object sender, EventArgs e)
+        {
+            FrmDDA frmDDA = new FrmDDA();
+            frmDDA.Show();
+            this.Hide();
+
+        }
+
+        private void btnBresenham_Click(object sender, EventArgs e)
+        {
+            FrmBresenham frmBresenham = new FrmBresenham();
+            frmBresenham.Show();
+            this.Hide();
+        }
+
+        private void btnMidPoint_Click(object sender, EventArgs e)
+        {
+            FrmMidPoint frmMidPoint = new FrmMidPoint();
+            frmMidPoint.Show();
+            this.Hide();
+        }
+
+        private void FrmEllipse_Click(object sender, EventArgs e)
+        {
+            FrmEllipse frmEllipse = new FrmEllipse();
+            frmEllipse.Show();
+            this.Hide();
+        }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            FrmFillFloodDFS frmFillFoodDFS = new FrmFillFloodDFS();
+            frmFillFoodDFS.Show();
+            this.Hide();
+        }
+
+        private void btnFloodBFS_Click(object sender, EventArgs e)
+        {
+            FrmFillFloodBFS frmFloodFillBFS = new FrmFillFloodBFS();
+            frmFloodFillBFS.Show();
+            this.Hide();
+        }
+
+        private void btnCohenShutherland_Click(object sender, EventArgs e)
+        {
+            FrmCohenShutherland frmCohenShutherland = new FrmCohenShutherland();
+            frmCohenShutherland.Show();
+            this.Hide();
+        }
+
+        private void btnShutherlandHodgeman_Click(object sender, EventArgs e)
+        {
+            FrmShutherlandHodgeman frmShutherlandHodgeman = new FrmShutherlandHodgeman();
+            frmShutherlandHodgeman.Show();
+            this.Hide();
+        }
+
+        private void btnBezier_Click(object sender, EventArgs e)
+        {
+            FrmBezier frmBezier = new FrmBezier();
+            frmBezier.Show();
+            this.Hide();
+        }
+
+        private void btnBSplines_Click(object sender, EventArgs e)
+        {
+            FrmBSplines frmBSplines = new FrmBSplines();
+            frmBSplines.Show();
+            this.Hide();
+        }
     }
 }

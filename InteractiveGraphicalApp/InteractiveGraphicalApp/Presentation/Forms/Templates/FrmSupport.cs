@@ -14,8 +14,8 @@ namespace InteractiveGraphicalApp.Presentation.Forms.Templates
     {
         public FrmSupport()
         {
+            
             InitializeComponent();
-
         }
 
         public FrmSupport(string filepath)
@@ -23,13 +23,23 @@ namespace InteractiveGraphicalApp.Presentation.Forms.Templates
             InitializeComponent();
             wVSupport = new Microsoft.Web.WebView2.WinForms.WebView2();
             wVSupport.Dock = DockStyle.Fill;
+
             this.Controls.Add(wVSupport);
+
             this.Load += async (sender, e) =>
             {
                 await wVSupport.EnsureCoreWebView2Async();
+
+                wVSupport.CoreWebView2.Settings.AreDefaultScriptDialogsEnabled = true;
+                wVSupport.CoreWebView2.Settings.IsWebMessageEnabled = true;
+                wVSupport.CoreWebView2.Settings.IsStatusBarEnabled = true;
+                wVSupport.CoreWebView2.Settings.AreDefaultContextMenusEnabled = true;
+                wVSupport.CoreWebView2.Settings.AreDevToolsEnabled = true;
+  
+
+
                 wVSupport.Source = new Uri(filepath);
             };
-
         }
     }
 }

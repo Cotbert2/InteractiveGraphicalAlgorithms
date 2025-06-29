@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bresenham's Line Drawing Algorithm</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f9e6;
+      color: #004d00;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #28a745;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+    }
+
+    h1, h2 {
+      color: #1c7730;
+    }
+
+    code {
+      background-color: #f0fff0;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-family: Consolas, monospace;
+    }
+
+    .formula {
+      background-color: #d4f5d4;
+      padding: 10px;
+      border-left: 4px solid #28a745;
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bresenham's Line Drawing Algorithm</h1>
+    <p>Efficient Integer-Based Line Rendering</p>
+  </header>
+
+  <main>
+    <h2>📘 What is Bresenham's Algorithm?</h2>
+    <p>
+      Bresenham's Line Drawing Algorithm is a fundamental method in computer graphics to draw lines using only integer arithmetic.
+      It determines which pixel is the best approximation of the ideal line between two points.
+    </p>
+
+    <h2>📐 Formulas</h2>
+    <div class="formula">
+      dx = x<sub>1</sub> - x<sub>0</sub><br>
+      dy = y<sub>1</sub> - y<sub>0</sub><br><br>
+      p = 2 * dy - dx <br>
+      If p &lt; 0: p = p + 2 * dy <br>
+      Else: p = p + 2 * (dy - dx); y = y + 1
+    </div>
+    <p>
+      The algorithm uses a decision parameter <code>p</code> to decide the next pixel position, avoiding floating-point operations.
+    </p>
+
+    <h2>🎥 Recommended Videos</h2>
+    <p>Watch these YouTube videos for a visual explanation:</p>
+<iframe width="837" height="471" src="https://www.youtube.com/embed/CceepU1vIKo" title="Bresenham&#39;s Line Algorithm - Demystified Step by Step" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>🧠 Summary</h2>
+    <ul>
+      <li>More efficient than DDA since it uses integer arithmetic.</li>
+      <li>Good for raster devices where precision and performance matter.</li>
+      <li>Widely used in low-level graphics rendering systems.</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 Computer Graphics Interactive | All rights reserved.
+  </footer>
+</body>
+</html>

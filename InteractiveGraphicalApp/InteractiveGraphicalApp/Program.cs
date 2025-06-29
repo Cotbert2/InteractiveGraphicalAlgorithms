@@ -27,7 +27,7 @@ namespace InteractiveGraphicalApp
             //    System.Threading.Thread.Sleep(3000); // 3 seconds
             //    splashScreen.Close();
             //}
-            Application.Run(new FrmBase());
+            Application.Run(new FrmHome());
         }
     }
 }
