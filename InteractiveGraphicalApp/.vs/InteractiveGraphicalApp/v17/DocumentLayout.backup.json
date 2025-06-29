@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\templates\\frmconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\templates\\frmconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\templates\\frmsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\templates\\frmsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\infraestructure\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\infraestructure\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\templates\\frmsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\templates\\frmsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\infraestructure\\graphics\\iimageexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\infraestructure\\graphics\\iimageexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "packages.config",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\packages.config",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\packages.config",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\packages.config",
+              "RelativeToolTip": "InteractiveGraphicalApp\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-29T08:27:19.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmConfig.cs [Design]",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmConfig.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmConfig.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmConfig.cs [Design]",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmConfig.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T08:20:46.444Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Config.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Infraestructure\\Config.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Infraestructure\\Config.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Infraestructure\\Config.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Infraestructure\\Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T08:20:02.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmSupport.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmSupport.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmSupport.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmSupport.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmSupport.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAzwB0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T08:14:13.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmSupport.cs [Design]",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmSupport.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmSupport.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmSupport.cs [Design]",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmSupport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T08:13:46.503Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmBase.cs [Design]",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs [Design]",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T08:01:21.054Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmBase.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T08:00:16.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmHome.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T07:06:53.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IImageExporter.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Infraestructure\\Graphics\\IImageExporter.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Infraestructure\\Graphics\\IImageExporter.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Infraestructure\\Graphics\\IImageExporter.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Infraestructure\\Graphics\\IImageExporter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T06:51:39.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmHome.cs [Design]",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs [Design]",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T06:40:39.387Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Program.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Program.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Program.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwB0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T06:30:12.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmSplashScreen.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T06:27:30.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmSplashScreen.cs [Design]",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs [Design]",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T06:27:04.75Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
