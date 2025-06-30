@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flood Fill BFS Algorithm</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f9e6;
+      color: #004d00;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #28a745;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+    }
+
+    h1, h2 {
+      color: #1c7730;
+    }
+
+    code {
+      background-color: #f0fff0;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-family: Consolas, monospace;
+    }
+
+    .formula {
+      background-color: #d4f5d4;
+      padding: 10px;
+      border-left: 4px solid #28a745;
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Flood Fill BFS Algorithm</h1>
+    <p>Breadth-First Search approach to region filling in computer graphics</p>
+  </header>
+
+  <main>
+    <h2>📘 What is Flood Fill (BFS)?</h2>
+    <p>
+      Flood Fill using Breadth-First Search (BFS) fills a region by expanding in all directions from a starting point. It uses a queue to process all neighboring pixels evenly, layer by layer.
+    </p>
+
+    <h2>💻 Code Sample</h2>
+    <code>
+      Queue&lt;Point&gt; queue = new Queue&lt;&gt;();<br>
+      queue.Enqueue(startPoint);<br>
+      while (queue.Count &gt; 0) {<br>
+      &nbsp;&nbsp;Point p = queue.Dequeue();<br>
+      &nbsp;&nbsp;// Check bounds and color<br>
+      &nbsp;&nbsp;queue.Enqueue(neighbors...);<br>
+      }
+    </code>
+
+    <h2>📐 Concept</h2>
+    <div class="formula">
+      BFS fills the area radially using a queue.<br>
+      - Visit the seed pixel and check color.<br>
+      - Add all 4 neighbors to the queue.<br>
+      - Process each pixel layer by layer.
+    </div>
+
+    <h2>🎥 Recommended Video</h2>
+<iframe width="837" height="471" src="https://www.youtube.com/embed/VuiXOc81UDM" title="This is how Paint&#39;s bucket fill works (Flood fill algorithm)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>🧠 Summary</h2>
+    <ul>
+      <li>Uses <strong>queue</strong> for uniform expansion.</li>
+      <li>Ideal for large regions with predictable structure.</li>
+      <li>Can consume more memory if the region is huge.</li>
+      <li>Very stable and predictable behavior.</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 Computer Graphics Interactive | All rights reserved.
+  </footer>
+</body>
+</html>

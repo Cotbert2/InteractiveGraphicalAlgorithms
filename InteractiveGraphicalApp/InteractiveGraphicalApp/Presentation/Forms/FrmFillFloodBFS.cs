@@ -21,7 +21,7 @@ namespace InteractiveGraphicalApp.Presentation.Forms
 
         Bitmap bitmap;
 
-        public FrmFillFloodBFS() : base(Constants.FillFloodDFSGuidance, "Fill Flood BFS Algorithm")
+        public FrmFillFloodBFS() : base(Constants.FillFloodBFSGuidance, "Fill Flood BFS Algorithm")
         {
             InitializeComponent();
             this.Size = new Size(830, 644);
