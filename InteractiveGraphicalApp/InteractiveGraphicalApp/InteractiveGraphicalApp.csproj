@@ -84,6 +84,7 @@
     <Compile Include="Core\Algorithms\Rasterize\EllipseRasterizer.cs" />
     <Compile Include="Core\Algorithms\Fill\FloodFillDFS.cs" />
     <Compile Include="Core\Algorithms\Rasterize\MidPointRasterizer.cs" />
+    <Compile Include="Core\Algorithms\Utils\PolygonUtils.cs" />
     <Compile Include="Core\Model\Structures\CircularBuffer.cs" />
     <Compile Include="Core\Ports\ILineRasterizer.cs" />
     <Compile Include="Infraestructure\Config.cs" />
@@ -190,6 +191,12 @@
     <EmbeddedResource Include="Presentation\Forms\FrmEllipse.resx">
       <DependentUpon>FrmEllipse.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Forms\FrmFillFloodBFS.resx">
+      <DependentUpon>FrmFillFloodBFS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Forms\FrmFillFloodDFS.resx">
+      <DependentUpon>FrmFillFloodDFS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentation\Forms\FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,9 +239,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Core\Algorithms\Utils\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\splash %281%29.jpg" />
   </ItemGroup>
