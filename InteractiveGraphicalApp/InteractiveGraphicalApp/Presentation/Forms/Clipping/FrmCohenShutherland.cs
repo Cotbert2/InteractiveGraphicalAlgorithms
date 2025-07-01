@@ -44,7 +44,7 @@ namespace InteractiveGraphicalApp.Presentation.Forms
         {
             PopupNotifier popup = new PopupNotifier();
             popup.TitleText = "Information";
-            popup.ContentText = "Click on the canvas to draw a line then, use the right click to clip it";
+            popup.ContentText = "Click on the canvas to draw a line then, use the left click to clip it";
             popup.Image = SystemIcons.Information.ToBitmap();
             popup.Delay = 5000;
             popup.AnimationDuration = 1000;
@@ -178,10 +178,10 @@ namespace InteractiveGraphicalApp.Presentation.Forms
             Bitmap bmp = new Bitmap(canvas.Width, canvas.Height);
             using (Graphics g = Graphics.FromImage(bmp))
             {
-                RenderScene(g); // Usa tu método existente para pintar todo
+                RenderScene(g); 
             }
 
-            canvas.Image?.Dispose(); // libera la imagen anterior
+            canvas.Image?.Dispose();
             canvas.Image = bmp;
         }
 

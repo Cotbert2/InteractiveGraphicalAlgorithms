@@ -185,6 +185,9 @@
     <EmbeddedResource Include="Presentation\Forms\Clipping\FrmCohenShutherland.resx">
       <DependentUpon>FrmCohenShutherland.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Forms\Clipping\FrmShutherlandHodgeman.resx">
+      <DependentUpon>FrmShutherlandHodgeman.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentation\Forms\Rasterize\FrmBresenham.resx">
       <DependentUpon>FrmBresenham.cs</DependentUpon>
     </EmbeddedResource>

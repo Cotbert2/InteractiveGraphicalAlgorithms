@@ -3,11 +3,31 @@
   "WorkspaceRootPath": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\infraestructure\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\clipping\\frmshutherlandhodgeman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\clipping\\frmshutherlandhodgeman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\clipping\\frmcohenshutherland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\clipping\\frmcohenshutherland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\clipping\\frmshutherlandhodgeman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\clipping\\frmshutherlandhodgeman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\core\\algorithms\\clipping\\shutherlandhodgemanclipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\core\\algorithms\\clipping\\shutherlandhodgemanclipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\clipping\\frmcohenshutherland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\clipping\\frmcohenshutherland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\infraestructure\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\infraestructure\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\fill\\frmfillflooddfs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\fill\\frmfillflooddfs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\fill\\frmfillflooddfs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,12 +35,12 @@
       "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\fill\\frmfillflooddfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\frmdda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmdda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmMidPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InteractiveGraphicalApp\\Presentation\\Forms\\FrmMidPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\frmmidpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmmidpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmDDA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InteractiveGraphicalApp\\Presentation\\Forms\\FrmDDA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +58,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShutherlandHodgemanClipping.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Core\\Algorithms\\Clipping\\ShutherlandHodgemanClipping.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Core\\Algorithms\\Clipping\\ShutherlandHodgemanClipping.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Core\\Algorithms\\Clipping\\ShutherlandHodgemanClipping.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Core\\Algorithms\\Clipping\\ShutherlandHodgemanClipping.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwDMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:58:53.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmShutherlandHodgeman.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAMwCoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:34:46.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmShutherlandHodgeman.cs [Design]",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs [Design]",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:34:45.649Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FrmCohenShutherland.cs [Design]",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs [Design]",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:32:01.756Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FrmFillFloodDFS.Designer.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodDFS.Designer.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodDFS.Designer.cs",
@@ -46,12 +116,11 @@
               "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodDFS.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T00:49:43.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T00:49:43.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Constants.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Infraestructure\\Constants.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Infraestructure\\Constants.cs",
@@ -76,16 +145,16 @@
         "Y": 266,
         "Width": 1230,
         "Height": 581,
-        "WindowState": 2
+        "WindowState": 0
       },
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "FrmMidPoint.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmMidPoint.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmMidPoint.cs",
@@ -97,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "FrmDDA.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmDDA.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmDDA.cs",
@@ -109,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "FrmFillFloodDFS.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodDFS.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodDFS.cs",
@@ -118,6 +187,19 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAApwBgAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T22:57:47.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmCohenShutherland.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:34:37.846Z",
               "EditorCaption": ""
             }
           ]
