@@ -40,6 +40,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.canvas)).BeginInit();
             this.SuspendLayout();
             // 
+            // iconButton3
+            // 
+            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -117,7 +121,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(32, 285);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(158, 31);
+            this.label5.Size = new System.Drawing.Size(126, 25);
             this.label5.TabIndex = 14;
             this.label5.Text = "Center Point:";
             // 

@@ -111,6 +111,13 @@ namespace InteractiveGraphicalApp.Presentation.Forms
 
         }
 
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            FrmCohenShutherland newFrm = new FrmCohenShutherland();
+            newFrm.Show();
+            this.Close();
+        }
+
         private void UpdateClipWindow()
         {
             int newXMin, newXMax, newYMin, newYMax;

@@ -122,6 +122,13 @@ namespace InteractiveGraphicalApp.Presentation.Forms
 
         }
 
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            FrmShutherlandHodgeman newFrm = new FrmShutherlandHodgeman();
+            newFrm.Show();
+            this.Close();
+        }
+
         private void txtYMin_TextChanged(object sender, EventArgs e)
         {
             UpdateClipWindow();

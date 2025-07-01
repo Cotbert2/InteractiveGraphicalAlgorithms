@@ -101,5 +101,12 @@ namespace InteractiveGraphicalApp.Presentation.Forms
             g.DrawLine(axisPen, 0, centerY, canvas.Width, centerY);
             g.DrawLine(axisPen, centerX, 0, centerX, canvas.Height);
         }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            FrmMidPoint newFrm = new FrmMidPoint();
+            newFrm.Show();
+            this.Close();
+        }
     }
 }

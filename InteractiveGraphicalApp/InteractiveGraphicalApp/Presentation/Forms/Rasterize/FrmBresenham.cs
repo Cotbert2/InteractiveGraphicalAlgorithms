@@ -109,5 +109,12 @@ namespace InteractiveGraphicalApp.Presentation.Forms
             popup.ShowCloseButton = true;
             popup.Popup();
         }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            FrmBresenham newFrm = new FrmBresenham();
+            newFrm.Show();
+            this.Close();
+        }
     }
 }

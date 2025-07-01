@@ -361,5 +361,12 @@ namespace InteractiveGraphicalApp.Presentation.Forms
         {
 
         }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            FrmFillFloodBFS newFrm = new FrmFillFloodBFS();
+            newFrm.Show();
+            this.Close();
+        }
     }
 }

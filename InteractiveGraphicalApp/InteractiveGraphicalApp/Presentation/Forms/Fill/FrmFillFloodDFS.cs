@@ -299,5 +299,12 @@ namespace InteractiveGraphicalApp.Presentation.Forms
         {
             txtTips.Text = tbTips.Value.ToString();
         }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            FrmFillFloodDFS newFrm = new FrmFillFloodDFS();
+            newFrm.Show();
+            this.Close();
+        }
     }
 }

@@ -174,6 +174,12 @@ namespace InteractiveGraphicalApp.Presentation.Forms
             canvas.Invalidate();
         }
 
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            FrmBezier newFrm = new FrmBezier();
+            newFrm.Show();
+            this.Close();
+        }
     }
 
 }

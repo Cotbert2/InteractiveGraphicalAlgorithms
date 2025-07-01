@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\rasterize\\frmbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\rasterize\\frmbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\rasterize\\frmbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\rasterize\\frmbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\templates\\frmconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\templates\\frmconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\fill\\frmfillfloodbfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\fill\\frmfillfloodbfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\fill\\frmfillfloodbfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\fill\\frmfillfloodbfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,19 +51,11 @@
       "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\infraestructure\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\infraestructure\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\infraestructure\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|e:\\development\\interactivegraphicalalgorithms\\interactivegraphicalapp\\interactivegraphicalapp\\presentation\\forms\\frmsplashscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\frmsplashscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\frmsplashscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -59,14 +91,6 @@
       "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\curves\\frmbezier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\templates\\frmbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\clipping\\frmshutherlandhodgeman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\clipping\\frmshutherlandhodgeman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -77,14 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\clipping\\frmshutherlandhodgeman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\clipping\\frmshutherlandhodgeman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\rasterize\\frmbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\rasterize\\frmbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\rasterize\\frmbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|solutionrelative:interactivegraphicalapp\\presentation\\forms\\rasterize\\frmbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74A01757-9D3E-430D-8796-CB7B0961C466}|InteractiveGraphicalApp\\InteractiveGraphicalApp.csproj|E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\interactivegraphicalapp\\presentation\\forms\\clipping\\frmcohenshutherland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -110,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,7 +134,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "FrmConfig.cs [Design]",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmConfig.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmConfig.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmConfig.cs [Design]",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmConfig.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T15:18:28.117Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmBase.Designer.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.Designer.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.Designer.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.Designer.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.Designer.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAAAOMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T15:10:03.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmFillFloodBFS.cs",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodBFS.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodBFS.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodBFS.cs",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodBFS.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwC0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T15:09:43.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmFillFloodBFS.cs [Design]",
+              "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodBFS.cs",
+              "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodBFS.cs",
+              "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodBFS.cs [Design]",
+              "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodBFS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T15:09:10.751Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FrmSplashScreen.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs",
@@ -131,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Config.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Infraestructure\\Config.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Infraestructure\\Config.cs",
@@ -139,12 +205,11 @@
               "RelativeToolTip": "InteractiveGraphicalApp\\Infraestructure\\Config.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAgwBsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:58:08.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T14:58:08.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "FrmSplashScreen.Designer.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.Designer.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.Designer.cs",
@@ -152,24 +217,22 @@
               "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.Designer.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAASwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:56:38.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T14:56:38.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "FrmSplashScreen.cs [Design]",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs",
               "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs [Design]",
               "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmSplashScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T18:59:05.46Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-01T18:59:05.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Program.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Program.cs",
@@ -177,12 +240,11 @@
               "RelativeToolTip": "InteractiveGraphicalApp\\Program.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T18:35:25.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T18:35:25.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "FrmBezier.Designer.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBezier.Designer.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBezier.Designer.cs",
@@ -194,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "FrmBSpline.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBSpline.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBSpline.cs",
@@ -206,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "FrmBSpline.Designer.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBSpline.Designer.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBSpline.Designer.cs",
@@ -218,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "FrmBSpline.cs [Design]",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBSpline.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBSpline.cs",
@@ -235,14 +297,14 @@
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs",
               "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs",
               "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIAxwBwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwD8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T07:15:07.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FrmHome.cs [Design]",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\FrmHome.cs",
@@ -254,53 +316,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "FrmBase.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
               "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
               "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAIAywIcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAYwH0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T06:55:25.387Z"
+              "WhenOpened": "2025-07-01T06:55:25.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
               "Title": "FrmBase.cs [Design]",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs",
               "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs [Design]",
               "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Templates\\FrmBase.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T06:55:22.15Z"
+              "WhenOpened": "2025-07-01T06:55:22.15Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 0,
               "Title": "FrmBresenham.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Rasterize\\FrmBresenham.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Rasterize\\FrmBresenham.cs",
               "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Rasterize\\FrmBresenham.cs",
               "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Rasterize\\FrmBresenham.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T06:23:28.37Z"
+              "WhenOpened": "2025-07-01T06:23:28.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 1,
               "Title": "FrmBresenham.cs [Design]",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Rasterize\\FrmBresenham.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Rasterize\\FrmBresenham.cs",
               "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Rasterize\\FrmBresenham.cs [Design]",
               "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Rasterize\\FrmBresenham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T06:23:27.21Z"
+              "WhenOpened": "2025-07-01T06:23:27.21Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "FrmBezier.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBezier.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBezier.cs",
@@ -312,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "FrmBezier.cs [Design]",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBezier.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Curves\\FrmBezier.cs",
@@ -323,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "BSplinesCurve.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Core\\Algorithms\\Curve\\BSplinesCurve.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Core\\Algorithms\\Curve\\BSplinesCurve.cs",
@@ -335,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "BezierCurve.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Core\\Algorithms\\Curve\\BezierCurve.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Core\\Algorithms\\Curve\\BezierCurve.cs",
@@ -347,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "ShutherlandHodgemanClipping.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Core\\Algorithms\\Clipping\\ShutherlandHodgemanClipping.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Core\\Algorithms\\Clipping\\ShutherlandHodgemanClipping.cs",
@@ -359,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "FrmShutherlandHodgeman.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs",
@@ -371,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "FrmShutherlandHodgeman.cs [Design]",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmShutherlandHodgeman.cs",
@@ -382,19 +448,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "FrmCohenShutherland.cs [Design]",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs",
               "ToolTip": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs [Design]",
               "RelativeToolTip": "InteractiveGraphicalApp\\Presentation\\Forms\\Clipping\\FrmCohenShutherland.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:32:01.756Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-01T05:32:01.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "FrmFillFloodDFS.Designer.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodDFS.Designer.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Presentation\\Forms\\Fill\\FrmFillFloodDFS.Designer.cs",
@@ -406,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Constants.cs",
               "DocumentMoniker": "E:\\Development\\InteractiveGraphicalAlgorithms\\InteractiveGraphicalApp\\InteractiveGraphicalApp\\Infraestructure\\Constants.cs",
               "RelativeDocumentMoniker": "InteractiveGraphicalApp\\Infraestructure\\Constants.cs",

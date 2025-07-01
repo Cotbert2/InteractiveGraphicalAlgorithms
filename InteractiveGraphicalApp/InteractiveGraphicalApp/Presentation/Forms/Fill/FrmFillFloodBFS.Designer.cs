@@ -57,6 +57,10 @@
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
+            // iconButton3
+            // 
+            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;

@@ -36,6 +36,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.canvas)).BeginInit();
             this.SuspendLayout();
             // 
+            // iconButton3
+            // 
+            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
+            // 
             // tbCurve
             // 
             this.tbCurve.Location = new System.Drawing.Point(38, 193);
@@ -75,7 +79,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(114, 193);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 20);
+            this.label3.Size = new System.Drawing.Size(48, 16);
             this.label3.TabIndex = 11;
             this.label3.Text = "Grade:";
             // 

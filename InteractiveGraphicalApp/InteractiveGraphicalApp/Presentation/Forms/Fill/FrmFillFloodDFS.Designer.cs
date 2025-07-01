@@ -40,6 +40,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtSide = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtTips = new System.Windows.Forms.TextBox();
+            this.tbTips = new Guna.UI2.WinForms.Guna2TrackBar();
             this.label4 = new System.Windows.Forms.Label();
             this.txtOutter = new System.Windows.Forms.TextBox();
             this.tbOutter = new Guna.UI2.WinForms.Guna2TrackBar();
@@ -49,13 +52,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtTips = new System.Windows.Forms.TextBox();
-            this.tbTips = new Guna.UI2.WinForms.Guna2TrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.canvas)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // iconButton3
+            // 
+            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
             // 
             // btnShape
             // 
@@ -184,6 +188,31 @@
             this.panel5.Size = new System.Drawing.Size(230, 221);
             this.panel5.TabIndex = 16;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(14, 151);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(96, 16);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "Number of tips:";
+            // 
+            // txtTips
+            // 
+            this.txtTips.Location = new System.Drawing.Point(174, 148);
+            this.txtTips.Name = "txtTips";
+            this.txtTips.Size = new System.Drawing.Size(41, 22);
+            this.txtTips.TabIndex = 20;
+            // 
+            // tbTips
+            // 
+            this.tbTips.Location = new System.Drawing.Point(17, 187);
+            this.tbTips.Name = "tbTips";
+            this.tbTips.Size = new System.Drawing.Size(186, 18);
+            this.tbTips.TabIndex = 19;
+            this.tbTips.ThumbColor = System.Drawing.Color.ForestGreen;
+            this.tbTips.Scroll += new System.Windows.Forms.ScrollEventHandler(this.tbTips_Scroll);
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -262,31 +291,6 @@
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(156, 22);
             this.textBox3.TabIndex = 16;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(14, 151);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(96, 16);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "Number of tips:";
-            // 
-            // txtTips
-            // 
-            this.txtTips.Location = new System.Drawing.Point(174, 148);
-            this.txtTips.Name = "txtTips";
-            this.txtTips.Size = new System.Drawing.Size(41, 22);
-            this.txtTips.TabIndex = 20;
-            // 
-            // tbTips
-            // 
-            this.tbTips.Location = new System.Drawing.Point(17, 187);
-            this.tbTips.Name = "tbTips";
-            this.tbTips.Size = new System.Drawing.Size(186, 18);
-            this.tbTips.TabIndex = 19;
-            this.tbTips.ThumbColor = System.Drawing.Color.ForestGreen;
-            this.tbTips.Scroll += new System.Windows.Forms.ScrollEventHandler(this.tbTips_Scroll);
             // 
             // FrmFillFloodDFS
             // 

@@ -225,7 +225,7 @@ namespace InteractiveGraphicalApp.Presentation.Forms.Templates
         private FontAwesome.Sharp.IconButton configButton;
         private FontAwesome.Sharp.IconButton iconButton2;
         private System.Windows.Forms.Panel panel3;
-        private FontAwesome.Sharp.IconButton iconButton3;
+        public FontAwesome.Sharp.IconButton iconButton3;
         private FontAwesome.Sharp.IconButton iconButton1;
         public System.Windows.Forms.PictureBox canvas;
         private FontAwesome.Sharp.IconButton iconButton4;

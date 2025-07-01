@@ -112,5 +112,12 @@ namespace InteractiveGraphicalApp.Presentation.Forms
         {
 
         }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            FrmDDA newFrm = new FrmDDA();
+            newFrm.Show();
+            this.Close();
+        }
     }
 }

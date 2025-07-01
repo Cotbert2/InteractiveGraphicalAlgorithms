@@ -141,5 +141,12 @@ namespace InteractiveGraphicalApp.Presentation.Forms
         {
             txtB.Text = tbB.Value.ToString();
         }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            FrmEllipse newFrm = new FrmEllipse();
+            newFrm.Show();
+            this.Close();
+        }
     }
 }

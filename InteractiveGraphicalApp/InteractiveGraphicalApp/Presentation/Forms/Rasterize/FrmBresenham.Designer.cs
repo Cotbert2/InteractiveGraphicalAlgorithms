@@ -50,6 +50,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.canvas)).BeginInit();
             this.SuspendLayout();
             // 
+            // iconButton3
+            // 
+            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
+            // 
             // txtY1
             // 
             this.txtY1.Location = new System.Drawing.Point(190, 224);

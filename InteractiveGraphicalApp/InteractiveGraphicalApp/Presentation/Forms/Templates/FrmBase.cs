@@ -124,6 +124,7 @@ namespace InteractiveGraphicalApp.Presentation.Forms.Templates
 
         private void iconButton3_Click(object sender, EventArgs e)
         {
+
         }
 
         private void iconButton4_Click(object sender, EventArgs e)

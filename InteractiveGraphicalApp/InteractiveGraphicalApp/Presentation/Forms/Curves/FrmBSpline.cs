@@ -182,6 +182,12 @@ namespace InteractiveGraphicalApp.Presentation.Forms
             canvas.Invalidate();
         }
 
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            FrmBSpline newFrm = new FrmBSpline();
+            newFrm.Show();
+            this.Close();
+        }
     }
 
 }
