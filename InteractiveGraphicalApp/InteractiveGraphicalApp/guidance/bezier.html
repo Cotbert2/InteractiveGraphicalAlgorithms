@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bézier Curves</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f9e6;
+      color: #004d00;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #28a745;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+    }
+
+    h1, h2 {
+      color: #1c7730;
+    }
+
+    code {
+      background-color: #f0fff0;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-family: Consolas, monospace;
+    }
+
+    .formula {
+      background-color: #d4f5d4;
+      padding: 10px;
+      border-left: 4px solid #28a745;
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bézier Curves</h1>
+    <p>Mathematical Tool for Smooth Curve Drawing</p>
+  </header>
+
+  <main>
+    <h2>📘 What are Bézier Curves?</h2>
+    <p>
+      Bézier curves are parametric curves frequently used in computer graphics, modeling, animation, and vector design. They are defined by a set of control points that influence the shape of the curve.
+    </p>
+
+    <h2>📐 Formula (Quadratic and Cubic)</h2>
+    <div class="formula">
+      <strong>Quadratic Bézier Curve:</strong><br>
+      B(t) = (1 - t)<sup>2</sup>P<sub>0</sub> + 2(1 - t)tP<sub>1</sub> + t<sup>2</sup>P<sub>2</sub><br><br>
+      <strong>Cubic Bézier Curve:</strong><br>
+      B(t) = (1 - t)<sup>3</sup>P<sub>0</sub> + 3(1 - t)<sup>2</sup>tP<sub>1</sub> + 3(1 - t)t<sup>2</sup>P<sub>2</sub> + t<sup>3</sup>P<sub>3</sub><br><br>
+      Where 0 ≤ t ≤ 1
+    </div>
+    <p>
+      The shape of the curve is influenced by the positions of the control points. These curves are very stable and easy to compute.
+    </p>
+
+    <h2>🎥 Recommended Videos</h2>
+    <p>Learn how Bézier curves are calculated and used:</p>
+    <iframe src="https://www.youtube.com/embed/aVwxzDHniEw" title="Bézier Curves Explained" allowfullscreen></iframe>
+
+    <h2>🧠 Summary</h2>
+    <ul>
+      <li>Used in design, animation, and path smoothing.</li>
+      <li>Defined by control points and a parametric value <code>t</code>.</li>
+      <li>Cubic and quadratic curves are most common in practice.</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 Computer Graphics Interactive | All rights reserved.
+  </footer>
+</body>
+</html>

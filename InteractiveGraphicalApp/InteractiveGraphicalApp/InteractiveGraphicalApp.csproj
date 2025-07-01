@@ -90,52 +90,52 @@
     <Compile Include="Infraestructure\Config.cs" />
     <Compile Include="Infraestructure\Constants.cs" />
     <Compile Include="Infraestructure\Graphics\IImageExporter.cs" />
-    <Compile Include="Presentation\Forms\FrmBezier.cs">
+    <Compile Include="Presentation\Forms\Curves\FrmBezier.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmBezier.Designer.cs">
+    <Compile Include="Presentation\Forms\Curves\FrmBezier.Designer.cs">
       <DependentUpon>FrmBezier.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmBresenham.cs">
+    <Compile Include="Presentation\Forms\Rasterize\FrmBresenham.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmBresenham.Designer.cs">
+    <Compile Include="Presentation\Forms\Rasterize\FrmBresenham.Designer.cs">
       <DependentUpon>FrmBresenham.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmBSplines.cs">
+    <Compile Include="Presentation\Forms\Curves\FrmBSplines.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmBSplines.Designer.cs">
+    <Compile Include="Presentation\Forms\Curves\FrmBSplines.Designer.cs">
       <DependentUpon>FrmBSplines.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmCohenShutherland.cs">
+    <Compile Include="Presentation\Forms\Clipping\FrmCohenShutherland.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmCohenShutherland.Designer.cs">
+    <Compile Include="Presentation\Forms\Clipping\FrmCohenShutherland.Designer.cs">
       <DependentUpon>FrmCohenShutherland.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmDDA.cs">
+    <Compile Include="Presentation\Forms\Rasterize\FrmDDA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmDDA.Designer.cs">
+    <Compile Include="Presentation\Forms\Rasterize\FrmDDA.Designer.cs">
       <DependentUpon>FrmDDA.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmEllipse.cs">
+    <Compile Include="Presentation\Forms\Rasterize\FrmEllipse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmEllipse.Designer.cs">
+    <Compile Include="Presentation\Forms\Rasterize\FrmEllipse.Designer.cs">
       <DependentUpon>FrmEllipse.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmFillFloodBFS.cs">
+    <Compile Include="Presentation\Forms\Fill\FrmFillFloodBFS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmFillFloodBFS.Designer.cs">
+    <Compile Include="Presentation\Forms\Fill\FrmFillFloodBFS.Designer.cs">
       <DependentUpon>FrmFillFloodBFS.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmFillFloodDFS.cs">
+    <Compile Include="Presentation\Forms\Fill\FrmFillFloodDFS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmFillFloodDFS.Designer.cs">
+    <Compile Include="Presentation\Forms\Fill\FrmFillFloodDFS.Designer.cs">
       <DependentUpon>FrmFillFloodDFS.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentation\Forms\FrmHome.cs">
@@ -144,16 +144,16 @@
     <Compile Include="Presentation\Forms\FrmHome.Designer.cs">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmMidPoint.cs">
+    <Compile Include="Presentation\Forms\Rasterize\FrmMidPoint.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmMidPoint.Designer.cs">
+    <Compile Include="Presentation\Forms\Rasterize\FrmMidPoint.Designer.cs">
       <DependentUpon>FrmMidPoint.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmShutherlandHodgeman.cs">
+    <Compile Include="Presentation\Forms\Clipping\FrmShutherlandHodgeman.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\Forms\FrmShutherlandHodgeman.Designer.cs">
+    <Compile Include="Presentation\Forms\Clipping\FrmShutherlandHodgeman.Designer.cs">
       <DependentUpon>FrmShutherlandHodgeman.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentation\Forms\FrmSplashScreen.cs">
@@ -182,25 +182,28 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Presentation\Forms\FrmBresenham.resx">
+    <EmbeddedResource Include="Presentation\Forms\Clipping\FrmCohenShutherland.resx">
+      <DependentUpon>FrmCohenShutherland.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Forms\Rasterize\FrmBresenham.resx">
       <DependentUpon>FrmBresenham.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentation\Forms\FrmDDA.resx">
+    <EmbeddedResource Include="Presentation\Forms\Rasterize\FrmDDA.resx">
       <DependentUpon>FrmDDA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentation\Forms\FrmEllipse.resx">
+    <EmbeddedResource Include="Presentation\Forms\Rasterize\FrmEllipse.resx">
       <DependentUpon>FrmEllipse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentation\Forms\FrmFillFloodBFS.resx">
+    <EmbeddedResource Include="Presentation\Forms\Fill\FrmFillFloodBFS.resx">
       <DependentUpon>FrmFillFloodBFS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentation\Forms\FrmFillFloodDFS.resx">
+    <EmbeddedResource Include="Presentation\Forms\Fill\FrmFillFloodDFS.resx">
       <DependentUpon>FrmFillFloodDFS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentation\Forms\FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentation\Forms\FrmMidPoint.resx">
+    <EmbeddedResource Include="Presentation\Forms\Rasterize\FrmMidPoint.resx">
       <DependentUpon>FrmMidPoint.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentation\Forms\FrmSplashScreen.resx">

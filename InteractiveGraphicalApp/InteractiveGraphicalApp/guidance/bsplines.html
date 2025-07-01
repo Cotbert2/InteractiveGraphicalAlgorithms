@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>B-Spline Curves</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f9e6;
+      color: #004d00;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #28a745;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+    }
+
+    h1, h2 {
+      color: #1c7730;
+    }
+
+    code {
+      background-color: #f0fff0;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-family: Consolas, monospace;
+    }
+
+    .formula {
+      background-color: #d4f5d4;
+      padding: 10px;
+      border-left: 4px solid #28a745;
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>B-Spline Curves</h1>
+    <p>Flexible and Smooth Curve Modeling</p>
+  </header>
+
+  <main>
+    <h2>📘 What are B-Spline Curves?</h2>
+    <p>
+      B-Spline (Basis Spline) curves are piecewise polynomial functions that generalize Bézier curves. They provide greater control over curve shape using a set of control points and a knot vector. Unlike Bézier curves, B-Splines can represent complex shapes smoothly without increasing the polynomial degree.
+    </p>
+
+    <h2>📐 Mathematical Definition</h2>
+    <div class="formula">
+      B<sub>i,k</sub>(t) = 
+      <br>
+      <strong>if k = 1:</strong> 
+      <br>
+      B<sub>i,1</sub>(t) = 1 if t<sub>i</sub> ≤ t &lt; t<sub>i+1</sub>, else 0
+      <br><br>
+      <strong>if k > 1:</strong>
+      <br>
+      B<sub>i,k</sub>(t) = ((t - t<sub>i</sub>) / (t<sub>i+k-1</sub> - t<sub>i</sub>)) * B<sub>i,k-1</sub>(t)
+      + ((t<sub>i+k</sub> - t) / (t<sub>i+k</sub> - t<sub>i+1</sub>)) * B<sub>i+1,k-1</sub>(t)
+    </div>
+    <p>
+      Here, <code>k</code> is the order of the B-Spline, and <code>t<sub>i</sub></code> are the knot values that determine the influence of control points.
+    </p>
+
+    <h2>🎥 Recommended Videos</h2>
+    <p>Watch this video for a visual understanding of B-Spline curves:</p>
+    <iframe src="https://www.youtube.com/embed/9eV1op1J6lw" title="B-Spline Curves Explained - Computer Graphics" allowfullscreen></iframe>
+
+    <h2>🧠 Summary</h2>
+    <ul>
+      <li>Generalization of Bézier curves with better local control.</li>
+      <li>Defined by control points, degree, and a knot vector.</li>
+      <li>Does not necessarily pass through control points.</li>
+      <li>Widely used in CAD, animation, and modeling software.</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 Computer Graphics Interactive | All rights reserved.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cohen–Sutherland Line Clipping Algorithm</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f9e6;
+      color: #004d00;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #28a745;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+    }
+
+    h1, h2 {
+      color: #1c7730;
+    }
+
+    code {
+      background-color: #f0fff0;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-family: Consolas, monospace;
+    }
+
+    .formula {
+      background-color: #d4f5d4;
+      padding: 10px;
+      border-left: 4px solid #28a745;
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cohen–Sutherland Line Clipping Algorithm</h1>
+    <p>Efficient Line Clipping in a Rectangular Window</p>
+  </header>
+
+  <main>
+    <h2>📘 What is the Cohen–Sutherland Algorithm?</h2>
+    <p>
+      The Cohen–Sutherland algorithm is used in computer graphics to clip lines to a rectangular viewport.
+      It uses region codes to efficiently determine whether a line is fully inside, outside, or intersects the clipping window.
+    </p>
+
+    <h2>📐 Region Codes and Logic</h2>
+    <div class="formula">
+      Each point has a 4-bit code: <br>
+      <strong>Top</strong> = 1000, <strong>Bottom</strong> = 0100, <strong>Right</strong> = 0010, <strong>Left</strong> = 0001<br><br>
+      If <code>code1 | code2 == 0</code> → Line is completely inside<br>
+      If <code>code1 & code2 != 0</code> → Line is completely outside<br>
+      Otherwise → Line needs to be clipped
+    </div>
+    <p>
+      The algorithm repeatedly clips the line segment until it either becomes trivially accepted or rejected.
+    </p>
+
+    <h2>🎥 Recommended Videos</h2>
+    <p>Watch these YouTube videos for a detailed walkthrough:</p>
+<iframe width="837" height="471" src="https://www.youtube.com/embed/-RlsSpOT8PY" title="Computer Graphics: Lecture #17: Cohen-Sutherland Line Clipping" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>🧠 Summary</h2>
+    <ul>
+      <li>Uses region codes to classify endpoints quickly.</li>
+      <li>Efficient for rectangular clipping windows.</li>
+      <li>Ideal for applications like CAD and 2D graphics pipelines.</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 Computer Graphics Interactive | All rights reserved.
+  </footer>
+</body>
+</html>
