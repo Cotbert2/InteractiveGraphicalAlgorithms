@@ -116,7 +116,7 @@ namespace InteractiveGraphicalApp.Presentation.Forms
 
         private void btnBSplines_Click(object sender, EventArgs e)
         {
-            FrmBSplines frmBSplines = new FrmBSplines();
+            FrmBSpline frmBSplines = new FrmBSpline();
             frmBSplines.Show();
             this.Hide();
         }
