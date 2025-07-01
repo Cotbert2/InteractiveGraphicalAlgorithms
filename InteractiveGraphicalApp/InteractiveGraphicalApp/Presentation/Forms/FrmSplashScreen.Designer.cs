@@ -36,17 +36,18 @@
             this.panel1.BackgroundImage = global::InteractiveGraphicalApp.Properties.Resources.splash__1_1;
             this.panel1.Location = new System.Drawing.Point(-12, -2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1699, 916);
+            this.panel1.Size = new System.Drawing.Size(1699, 770);
             this.panel1.TabIndex = 0;
             // 
             // FrmSplashScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1690, 913);
+            this.ClientSize = new System.Drawing.Size(1290, 655);
             this.Controls.Add(this.panel1);
             this.Name = "FrmSplashScreen";
             this.Text = "FrmSplashScreen";
+            this.Load += new System.EventHandler(this.FrmSplashScreen_Load_1);
             this.ResumeLayout(false);
 
         }

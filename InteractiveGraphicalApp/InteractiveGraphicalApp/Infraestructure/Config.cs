@@ -16,6 +16,7 @@ namespace InteractiveGraphicalApp.Infraestructure
         public Color FillColor { get; set; } 
         public int AnimationDelay { get; set; }
         public int LineAnchors { get; set; }
+        public bool SplashScreenShowed { get; set; }
 
 
         private Config()
@@ -24,6 +25,7 @@ namespace InteractiveGraphicalApp.Infraestructure
             FillColor = Color.ForestGreen;
             AnimationDelay = 0;
             LineAnchors = 1;
+            SplashScreenShowed = false;
         }
 
         public static Config Instance

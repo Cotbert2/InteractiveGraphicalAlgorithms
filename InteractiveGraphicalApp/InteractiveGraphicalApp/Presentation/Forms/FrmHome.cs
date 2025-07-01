@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InteractiveGraphicalApp.Infraestructure;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,8 +17,16 @@ namespace InteractiveGraphicalApp.Presentation.Forms
         public FrmHome()
         {
             this.ControlBox = false;
+            
 
             InitializeComponent();
+            if (!Config.Instance.SplashScreenShowed)
+            {
+
+
+                FrmSplashScreen frmSplashScreen = new FrmSplashScreen();
+                frmSplashScreen.Show();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
