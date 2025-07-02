@@ -42,6 +42,14 @@ namespace InteractiveGraphicalApp.Core.Algorithms
                 bmp.SetPixel(x, y, newColor);
                 points.Add(currentPoint);
 
+
+                if (Config.Instance.AnimationDelay != 0)
+                {
+                    canvas.Image = bmp;
+                    canvas.Refresh();
+                    Task.Delay(Config.Instance.AnimationDelay);
+                }
+
                 stack.Push(new Point(x + 1, y));
                 stack.Push(new Point(x - 1, y));
                 stack.Push(new Point(x, y + 1));

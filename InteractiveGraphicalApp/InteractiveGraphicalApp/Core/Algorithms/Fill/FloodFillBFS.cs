@@ -28,6 +28,13 @@ namespace InteractiveGraphicalApp.Core.Algorithms.Fill
                 {
                     bmp.SetPixel(currentPoint.X, currentPoint.Y, Config.Instance.FillColor);
                     points.Add(currentPoint);
+                    if (Config.Instance.AnimationDelay != 0)
+                    {
+                        canvas.Image = bmp;
+                        canvas.Refresh();
+                        Task.Delay(Config.Instance.AnimationDelay);
+                    }
+                  
                     queue.Enqueue(new Point(currentPoint.X + 1, currentPoint.Y));
                     queue.Enqueue(new Point(currentPoint.X - 1, currentPoint.Y));
                     queue.Enqueue(new Point(currentPoint.X, currentPoint.Y + 1));
