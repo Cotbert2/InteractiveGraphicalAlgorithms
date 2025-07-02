@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sutherland–Hodgman Polygon Clipping Algorithm</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f9e6;
+      color: #004d00;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #28a745;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+    }
+
+    h1, h2 {
+      color: #1c7730;
+    }
+
+    code {
+      background-color: #f0fff0;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-family: Consolas, monospace;
+    }
+
+    .formula {
+      background-color: #d4f5d4;
+      padding: 10px;
+      border-left: 4px solid #28a745;
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    iframe {
+      width: 100%;
+      height: 360px;
+      border: none;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sutherland–Hodgman Polygon Clipping Algorithm</h1>
+    <p>Efficient Polygon Clipping Against a Convex Window</p>
+  </header>
+
+  <main>
+    <h2>📘 What is the Sutherland–Hodgman Algorithm?</h2>
+    <p>
+      The Sutherland–Hodgman algorithm is used for clipping polygons against a rectangular or convex clipping window.
+      It works by successively clipping the polygon edges against each boundary of the clipping window.
+    </p>
+
+    <h2>📐 Clipping Strategy</h2>
+    <div class="formula">
+      For each edge of the polygon:<br>
+      - If both vertices are inside → output the second vertex<br>
+      - If going from inside to outside → output the intersection point<br>
+      - If going from outside to inside → output the intersection point and the second vertex<br>
+      - If both are outside → output nothing
+    </div>
+    <p>
+      The process is repeated for all four boundaries (left, right, top, bottom) of the clipping window.
+    </p>
+
+    <h2>🎥 Recommended Videos</h2>
+    <p>Visual explanation of the algorithm:</p>
+<iframe width="837" height="471" src="https://www.youtube.com/embed/7HzKJCpUVYg" title="Computer Graphics: Lecture #19: Sutherland- Hodgeman Polygon clipping" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>🧠 Summary</h2>
+    <ul>
+      <li>Best suited for convex clipping windows.</li>
+      <li>Outputs a new list of vertices forming the clipped polygon.</li>
+      <li>Maintains polygon integrity if input and clip window are convex.</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 Computer Graphics Interactive | All rights reserved.
+  </footer>
+</body>
+</html>

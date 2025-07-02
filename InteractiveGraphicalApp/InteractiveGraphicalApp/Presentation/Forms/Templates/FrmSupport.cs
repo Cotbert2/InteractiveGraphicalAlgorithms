@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,10 +36,8 @@ namespace InteractiveGraphicalApp.Presentation.Forms.Templates
                 wVSupport.CoreWebView2.Settings.IsStatusBarEnabled = true;
                 wVSupport.CoreWebView2.Settings.AreDefaultContextMenusEnabled = true;
                 wVSupport.CoreWebView2.Settings.AreDevToolsEnabled = true;
-  
-
-
-                wVSupport.Source = new Uri(filepath);
+                
+                wVSupport.Source = new Uri(Path.Combine(Application.StartupPath, "guidance", filepath));
             };
         }
     }
